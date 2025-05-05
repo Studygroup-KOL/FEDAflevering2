@@ -1,0 +1,49 @@
+
+
+.dashboard-card {
+  font-family: 'Comic Sans MS';
+  background: #fdfdfd;
+  color: #1e1e1e;
+  border: 2px solid #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 600px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.dashboard-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashboard-buttons button {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Comic Sans MS';
+  border: none;
+  border-radius: 5px;
+  background: #1e1e1e;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dashboard-buttons button:hover {
+  background: #444;
+}
+
+.dashboard-error {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: red;
+}

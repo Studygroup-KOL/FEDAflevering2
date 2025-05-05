@@ -1,0 +1,49 @@
+.remove-model-form {
+  font-family: 'Comic Sans MS';
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 1rem;
+  color: #1e1e1e;
+}
+
+.remove-model-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.remove-model-form button {
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.remove-model-form button:hover {
+  background-color: #444;
+}

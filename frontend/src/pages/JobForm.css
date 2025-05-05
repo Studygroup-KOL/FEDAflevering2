@@ -1,0 +1,52 @@
+.job-form {
+  font-family: 'Comic Sans MS';
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 1rem;
+  color: #1e1e1e;
+}
+
+.job-form h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.job-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.job-form input,
+.job-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.job-form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.job-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.job-form button:hover {
+  background-color: #444;
+}

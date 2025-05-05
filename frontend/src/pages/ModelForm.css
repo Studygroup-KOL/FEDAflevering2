@@ -1,0 +1,47 @@
+.model-form {
+  font-family: 'Comic Sans MS';
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 1rem;
+  color: #1e1e1e;
+}
+
+.model-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.model-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.model-form input,
+.model-form select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.model-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.model-form button:hover {
+  background-color: #444;
+}

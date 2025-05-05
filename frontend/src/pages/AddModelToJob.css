@@ -1,0 +1,53 @@
+/* Global card container */
+.model-job-form {
+  font-family: 'Comic Sans MS';
+  background: #fdfdfd;
+  color: #1e1e1e;
+  border: 2px solid #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 450px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+.model-job-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Label + Select shared styles */
+.model-job-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.model-job-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.model-job-form button {
+  background: #1e1e1e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.model-job-form button:hover {
+  background: #444;
+}

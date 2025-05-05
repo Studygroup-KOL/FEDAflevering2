@@ -1,0 +1,56 @@
+
+
+.expense-form {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fdfdfd;
+  border: 2px solid #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  color: #1e1e1e;
+}
+
+.expense-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.submit-button {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #444;
+}

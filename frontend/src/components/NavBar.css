@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 20px 40px;
+  color: white;
+  font-family: 'Comic Sans MS'
+}
+
+.navbar-left h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.navbar-left p {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-center a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.navbar-center a:hover,
+.navbar-center a.active {
+  color: #ccc;
+}
+
+.navbar-right button {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navbar-right button:hover {
+  background-color: white;
+  color: #1e1e1e;
+}
